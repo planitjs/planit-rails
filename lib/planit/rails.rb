@@ -1,3 +1,4 @@
+require "planit/rails/engine"
 require "planit/rails/version"
 
 module Planit
