@@ -1,8 +1,8 @@
 .planit-container {
     position: relative;
     display: block;
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    height: 400px;
     margin: 25px auto;
     background: rgba(239, 239, 239, 0.8);
     -webkit-touch-callout: none;
@@ -13,7 +13,7 @@
     user-select: none;
 }
 
-.planit-container .image-container {
+.planit-container .planit-image-container {
     position: absolute;
     top: 0;
     left: 0;
@@ -22,7 +22,7 @@
     overflow: hidden;
 }
 
-.planit-container .image-container img {
+.planit-container .planit-image-container img {
     position: absolute;
     top: 0;
     left: 0;
@@ -76,6 +76,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    transition: none;
 }
 
 .planit-container .planit-markers-container .planit-marker.draggable:hover {
