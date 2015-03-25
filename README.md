@@ -1,11 +1,12 @@
-Planit Rails
+Planit.js Rails
 ================
 
-PlanitJS is a tool built on jQuery to help you interact with markers/hotspots
+Planit.js is a tool built on jQuery to help you interact with markers/hotspots
 on an image or blank container. This gem adds the script and stylesheet to your
 asset pipeline.
 
-Refer to [PlanitJS](https://github.com/planitjs/planit) for PlanitJS's usage.
+Refer to [Planit's doc site](http://planit.seancdavis.me) for usage and
+examples.
 
 Installation
 ----------------
